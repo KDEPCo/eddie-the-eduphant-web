@@ -1,0 +1,227 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: #010a24;
+}
+/* Header styles */
+header {
+    background: #010a24;
+    background-size: cover;
+    background-position: center;
+    padding: 16px 32px;
+    padding: 20px;
+}
+/* Logo container styling */
+.logo {
+    display: flex; /* Uses flexbox layout */
+    align-items: center; /* Centers items vertically */
+    flex-direction: row; /* Keeps logo and heading in a row */
+}
+/* Logo styling */
+.logo img {
+    height: 100px; /* Sets the height of the logo image, keeping aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* border: 2px solid #fff; */
+    border-radius: 8px;
+    animation: logoFadeIn 2s ease-in-out;
+    margin-right: 25px; /* Adds space between the logo and heading */
+}
+/* Heading styling */
+.logo h1 {
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    font-weight: bolder;
+    font-size: 40px; /* Adjust font size to fit in one line */
+    color: #01b3ef;
+    margin: 0;
+    white-space: nowrap; /* Ensures the heading stays on one line */
+    text-align: left; /* Aligns text to the left within the flexbox */
+}
+@keyframes logoFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* Header content styling */
+.header-content {
+    width: 100%; /* Takes full width of the header */
+    text-align: right; /* Aligns the navigation to the right */
+}
+/* Container for logo and header content */
+.header-container {
+    display: flex; /* Uses flexbox layout */
+    align-items: center; /* Vertically centers items */
+    width: 100%; /* Takes full width of the screen */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+
+/* Navigation menu styles */
+nav {
+    width: 100%; /* Takes full width of the header */
+    display: flex; /* Uses flexbox layout */
+    justify-content: flex-end; /* Aligns navigation items to the right */
+    font-family: 'Coco Gothic', sans-serif; /* Sets the font for navigation text */
+    font-size: 17px; /* Sets the font size for navigation text */
+}
+
+nav ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Uses flexbox layout for list items */
+}
+
+nav ul li {
+    margin: 0 16px; /* Adds 16px margin on left and right of each list item */
+}
+
+nav ul li a {
+    color: #01b3ef; /* Sets the text color of the links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 17px;/* Sets the font size of the links */
+}
+
+nav ul li a:hover {
+    font-weight: bold; /* Bolds the text when hovered */
+}
+
+.welcome-hero {
+    background-image: url('Images/creative-composition-with-school-supplies.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust height as needed */
+    color: #90B5DF; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+    opacity: 0.9;
+    margin:0;
+}
+.welcome h2{
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    text-align: center;
+    font-size: 35px;
+}
+.welcome p{
+    font-size: 20px;
+    font-family: 'Montserrat'; /* Sets the font for navigation text */
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 20px 60px;
+}
+.welcome-background{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 60px;
+}
+
+
+.hero {
+    background-color: #010a24;
+    color: #90B5DF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    text-align: center;
+    font-size: 35px;
+}
+.container-empowering{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 40px 40px;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    font-family: 'Montserrat'; /* Sets the font for navigation text */
+}
+.container-empowering button{
+    background-color: #01b3ef;
+}
+.container-empowering button:hover{
+    background-color: #FF8AC9;
+    font-weight: bold;
+}
+
+
+
+
+.features {
+    padding: 50px 0;
+    background-color: #010a24;
+    text-align: center;
+    margin: 0;
+}
+
+.features h2 {
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #90B5DF;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    font-family: 'Montserrat';
+    background: #698ABC;
+    border-radius: 10px;
+    border: 4px solid #01b3ef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    flex: 1;
+    max-width: 30%;
+    min-width: 250px;
+    text-align: center;
+}
+
+.card h4 {
+    font-family: 'Grandview';
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+footer {
+    font-family: 'Montserrat';
+    background-color: #010a24;
+    color: #90B5DF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+

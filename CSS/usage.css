@@ -1,0 +1,84 @@
+/* Hero section */
+.discord-hero {
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #90b5df;
+}
+.discord-hero h2 {
+    font-family: 'Grandview'; /* Example of a more decorative font */
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+/* Main container */
+.discord-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background: #698ABC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #003d6c;
+    border-bottom: 2px solid #00509e;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+section p {
+    font-size: 16px;
+    margin: 0 0 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Guidelines section */
+#guidelines ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#guidelines p {
+    font-weight: 700;
+    color: #003d6c;
+}
+
+/* Tips section */
+#tips ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#tips ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#tips strong {
+    color: #003d6c;
+}
